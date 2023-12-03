@@ -1,72 +1,105 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Rushi's Perosnal Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio Web site</title>
+    <link rel="icon" href="favicon (2).ico?v=2">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- css files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/57daf65f80.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
-  <table cellspacing ="20">
-    <tr>
-      <td><img src="images/Rushi.jpg" alt="Goa's Memory" width="400" height="400"></td>
-      <td>
-        <h1>Rushi Shiralekar</h1>
-        <p><em><strong>A TCS Employee</strong></em></p>
-        <p>I am a Web Developer. I love to solving programming problems</p>
-      </td>
-    </tr>
-  </table>
+<body onload="document.body.style.opacity='1'">
+    <div class="hero">
+        <div class="nav">
+            <div class="logo">
+                <!-- <h2>Joni Sulexu</h2> -->
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#" class="active">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </div>
+        </div>
 
-  <hr>
-  <h3>Books and Teaching</h3>
-  <ul>
-    <li>The Web App Developement</li>
-    <li>The Web Developement</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2010-2013</td>
-        <td>Lead Developer at Tempo App</td>
-      </tr>
-      <tr>
-        <td>2010</td>
-        <td>Researcher at PRMCEAM</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Java</td>
-      <td>✌✌✌✌</td>
-    </tr>
-    <tr>
-      <td>Spring Boot</td>
-      <td>✌✌✌</td>
-    </tr>
-    <tr>
-      <td>DSA</td>
-      <td>✌✌✌</td>
-    </tr>
-    <tr>
-      <td>SQL</td>
-      <td>✌✌✌✌✌</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact.html">Contact Me</a>
+        <div class="main">
+            <img src="img/main.png" alt="men" class="men">
+            <div class="main-detil">
+                <p>Hello i'm</p>
+                <h1>Rushikesh Shiralekar</h1>
+                <h4>Software Developer</h4>
+                <p>Currently doing masters's degree in Computer Science & Engineering at National Institute of Technology, Warangal</p>
+                <div class="btn">
+                    <button type="submit">Download CV</button>
+                    <button type="submit" class="btn-2">Hire Me</button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="sub-btn">
+            <a href="https://www.youtube.com/channel/UCUuyUTlJcHzZJJeYpYhUI-Q/">SUBSCRIBE</a>
+        </div> -->
+    </div>
+
+  <section id = "experience">
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="sk-img2" src="img/computer.png" alt="">
+        <h3>Problem Solving</h3>
+        <p>I loves to solve problems related to algorithm, data strucure, operating system and computer networking</p>
+      </div>
+      <div class="skill-row">
+        <img class="sk-img3" src="img/computer.png" alt="">
+        <h3>Back-end Developement</h3>
+        <p>Worked as a back-end devaloper at Tata Consultancy Services as Assistant System Engineer. Design, develop, and maintain efficient and reliable Java backend code using the Spring Boot framework.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id ="footer">
+    <div class="bottom">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <!-- <h3>Lorem ipsum dolor sit amet, non elit.</h3> -->
+        <!-- <p class="contact-msg">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p> -->
+        <a class="btn-btn" href="mailto:rushikeshshiralekar@gmail.com">CONTACT ME</a>
+        <hr>
+      </div>
+      <!-- <div class="footer">
+        <a class="footer-link" href="https://www.linkedin.com/in/rushikesh-shiralekar-14a998157/">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/Rushi117108">GitHub</a> -->
+        <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
+        <!-- <p class="copyright">2022 Rushikesh Shiralekar</p>
+      </div> -->
+
+    <div class="social">
+        <!-- <a href="https://github.com/Rushi117108"> -->
+        <a href="https://github.com/Rushi117108">
+            <i class="social-icon fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/rushikesh-shiralekar-14a998157/">
+          <i class="social-icon fa-brands fa-linkedin"></i>
+        </a>
+        <!-- <i class="social-icon fa-brands fa-github"></i> -->
+        <!-- <i class="social-icon fa-brands fa-instagram"></i>
+
+        <i class="social-icon fa-brands fa-facebook-f"></i> -->
+    </div>
+    </div>
+  </section>
+
 </body>
 
 </html>
